@@ -29,3 +29,11 @@ this will be building a blank project that wont contain dependencies or anything
 npx expo install react-dom react-native-web @expo/metro-runtime
 ```
 with this 3 dependencies you'll be able to see it on the web also but develop for both mobile apps and web applications.
+
+Also I'd really reacommend using a linter and prettier. this is with the pourpose of keeping clen code standards you can install them using the following commands:
+
+```bash
+npx expo lint
+npx expo install -- --save-dev prettier eslint-config-prettier -eslint-plugin-prettier
+```
+Is mandatory to have the extensions installed in yopur preference code editor the eslint and prettier configurations are recommended even with the default project since they're not made by default
